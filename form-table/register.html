@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>会員登録画面</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>会員登録画面</h1>
+  <form action="#" method="post">
+    <label for="id">ID</label>
+    <input type="text" id="id" name="id">
+
+    <label for="name">名前</label>
+    <input type="text" id="name" name="name">
+
+    <label for="zip">〒郵便番号</label>
+    <input type="text" id="zip" name="zip">
+
+    <label for="address">住所</label>
+    <input type="text" id="address" name="address">
+
+    <label for="tel">電話番号</label>
+    <input type="tel" id="tel" name="tel">
+
+    <label for="pass">パスワード</label>
+    <input type="password" id="pass" name="pass">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">権限</label>
+    <select id="role" name="role">
+      <option value="admin">管理者</option>
+      <option value="user" selected>一般</option>
+    </select>
+
+    <label>有効/無効</label>
+    <div class="radio">
+      <label><input type="radio" name="status" value="1"> 有効</label>
+      <label><input type="radio" name="status" value="0" checked> 無効</label>
+    </div>
+
+    <button type="submit">登録</button>
+  </form>
+  <p><a href="login.html">ログイン画面へ戻る</a></p>
+</body>
+</html>
