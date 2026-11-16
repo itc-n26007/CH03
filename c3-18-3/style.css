@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 1. 全体の設定 */
+body {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* 2. 見出しの装飾 */
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #008bbd;
+  padding-bottom: 10px;
+}
+
+/* 3. ラベル（項目名）の装飾 */
+p{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* 4. 入力フィールド共通の装飾 */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+/* テキストエリアの高さ指定 */
+textarea {
+  height: 150px;
+}
